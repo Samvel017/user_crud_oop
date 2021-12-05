@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 0 20px;
+}
+
+.container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 1210px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 25px;
+}
+
+.container .user-input {
+  background-color: royalblue;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.container .user-input h3 {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.container .user-input .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  grid-gap: 15px;
+}
+
+.container .user-input .user-info label {
+  color: #9ee2fd;
+}
+
+.container .user-input .user-info label input {
+  padding: 4px 12px;
+  font-size: 15px;
+}
+
+.container .user-input .user-info #addUser {
+  padding: 4px 10px;
+  cursor: pointer;
+  border: none;
+  background: #0099ff;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.container .user-input .user-info #addUser:hover {
+  background: #31acff;
+}
+
+.container .output-container {
+  width: 100%;
+  padding: 20px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+
+.container .output-container .search-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .output-container .search-section #search {
+  width: 70%;
+  padding: 4px 12px;
+}
+
+.container .output-container .user-output {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .output-container .user-output .user-block {
+  border-left: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.container .output-container .user-output .user-block ul {
+  margin-bottom: 15px;
+}
+
+.container .output-container .user-output .user-block ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 10px;
+}
+
+.container .output-container .user-output .user-block .removeUser {
+  border: none;
+  border-radius: 5px;
+  background-color: crimson;
+  color: #fff;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.container .output-container .user-output .user-block .removeUser:hover {
+  background-color: red;
+}
+
+.name-edit {
+  font-size: 16px;
+  cursor: auto;
+  border: none;
+  width: 120px;
+}
+
+.name-edit:focus {
+  border: none;
+  outline: none;
+}
+
+.name-edit.active {
+  border: 1px solid #000;
+  cursor: text;
+}
+
+.name-edit.active:focus {
+  border: 1px solid #000;
+}
+
+.fa-edit {
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.fa-edit:hover {
+  color: #0099ff;
+}
+
+@media screen and (max-width: 867px) {
+  .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .user-input .user-info {
+    max-width: 500px;
+    width: 100%;
+  }
+  .container .user-input {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .user-input label {
+    width: 100%;
+  }
+  .container .user-input label input {
+    width: 100%;
+  }
+  .container .user-input input {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

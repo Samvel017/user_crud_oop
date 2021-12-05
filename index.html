@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="user-input">
+        <h3>Add new user</h3>
+        <div class="user-info">
+          <label for="name">
+            Name <br />
+            <input
+              type="text"
+              name="name"
+              placeholder="Your name..."
+              id="name"
+            />
+          </label>
+          <label for="surname">
+            Surname <br />
+            <input
+              type="text"
+              name="surname"
+              placeholder="Your surname..."
+              id="surname"
+            />
+          </label>
+          <label for="address">
+            Address <br />
+            <input
+              type="text"
+              name="address"
+              placeholder="Your address..."
+              id="address"
+            />
+          </label>
+          <label for="tel">
+            Telephone <br />
+            <input
+              type="number"
+              name="tel"
+              placeholder="Your telephone..."
+              id="tel"
+            />
+          </label>
+          <input type="submit" value="Add user" id="addUser" />
+        </div>
+      </div>
+      <div class="output-container">
+        <div class="search-section">
+          <input type="text" id="search" placeholder="Search by name..."/>
+          
+        </div>
+        <div class="user-output"></div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
