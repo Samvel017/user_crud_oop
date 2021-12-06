@@ -71,6 +71,10 @@ addUser.addEventListener('click', () => {
     );
     arr.push(user);
     user.myFunc(user);
+    userName.value = '';
+    userSur.value = '';
+    userAddress.value = '';
+    userTel.value = '';
   }
 });
 
