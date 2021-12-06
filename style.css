@@ -27,6 +27,8 @@ body {
   background-color: royalblue;
   border-radius: 10px;
   padding: 15px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .container .user-input h3 {
@@ -96,6 +98,12 @@ body {
 .container .output-container .search-section #search {
   width: 70%;
   padding: 4px 12px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-left: 2px solid #eee;
+  border-top: 2px solid #eee;
+  border-radius: 3px;
 }
 
 .container .output-container .user-output {
